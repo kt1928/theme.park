@@ -1,33 +1,33 @@
-/*_____________________CUSTOM_THEME______________________*/
+/*_____________________KAPPY_NORD_THEME______________________*/
 /* --body-before:#00ff771a; /* This is the background that creates the crt lines, background uses a transparency of 10% SET TO NONE TO REMOVE CRT EFFECT */
 /* --body-after: #00ff7733; /* This is the background that creates the crt lines, background uses a transparency of 20% SET TO NONE TO REMOVE CRT EFFECT */
 /* --body-animation: flicker; This is the background that flickers. SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
 /* --custom-text-header-animation: textflicker; /* SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
 
-@import url(/css/addons/unraid/login-page/retro-terminal/retro-terminal-base.css);
+@import url(https://imgur.com/RAqMgcm);
 :root {
 --main-bg-color:black;
---body-before:#70d7f61a;
---body-after: #70d7f633;
---body-animation: flicker;
---logo: url(/css/addons/unraid/login-page/alien/logo/wings_shadow.png) center no-repeat;
---text-color: #ffffff;
---input-color: #ffffff;
---link-color: #ffffff;
---link-color-hover: #8f2809;
---case-color: #ffffff;
---button-text-color: #ffffff;
+--body-before:none;
+--body-after: none;
+--body-animation: none;
+--logo: url(https://imgur.com/RAqMgcm) center no-repeat;
+--text-color: #d8dee9;
+--input-color: #d8dee9;
+--link-color: #d8dee9;
+--link-color-hover: #4c566a;
+--case-color: #d8dee9;
+--button-text-color: #d8dee9;
 --button-text-color-hover: #000;
---button-color: #ffffff;
---button-color-hover: #af0606;
---selection-color: #8f2809;
---custom-text-header:#ffffff;
---custom-text-header-shadow:#ffffff;
+--button-color: #d8dee9;
+--button-color-hover: #4c566a;
+--selection-color: #2e3440;
+--custom-text-header:#d8dee9;
+--custom-text-header-shadow:#d8dee9;
 --custom-text-header-animation: textflicker;
 --input-font: 'Share Tech Mono', monospace;
 --text-font: 'Share Tech Mono', monospace;
 --loginbox-background-color: transparent;
 --text-shadow: 0 0 8px;
---text-shadow-color: #ffffff;
+--text-shadow-color: #000000;
 --box-shadow: 0 0 15px;
 }
