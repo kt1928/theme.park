@@ -4,12 +4,11 @@
 /* --body-animation: flicker; This is the background that flickers. SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
 /* --custom-text-header-animation: textflicker; /* SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
 
-@import url(/css/addons/unraid/login-page/retro-terminal/retro-terminal-base.css);
 :root {
 --main-bg-color:black;
---body-before:#70d7f61a;
---body-after: #70d7f633;
---body-animation: flicker;
+--body-before:none;
+--body-after: none;
+--body-animation: none;
 --logo: url(https://imgur.com/RAqMgcm) center no-repeat;
 --text-color: #d8dee9;
 --input-color: #d8dee9;
